@@ -1,0 +1,1066 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+addressbig,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.wrap {
+    display: block;
+    width: 100%;
+/*    overflow-x: scroll;*/
+}
+
+#header {
+    overflow: hidden;
+    width: 100%;
+    background: #333;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+
+#header .headerInner {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: left;
+    height: 120px;
+    overflow: hidden;
+}
+
+#header .headerInner .logo {
+    float: left;
+    margin: 38px 10px;
+}
+
+#header .headerInner .logo a {
+    display: block;
+    width: 129px;
+    height: 43px;
+    background-image: url(../images/hinewcarLogo.png);
+    text-indent: -9999px
+}
+
+#nav {
+    float: left;
+    margin-left: 50px;
+}
+
+#nav .menu {
+    width: 200px;
+    height: 120px;
+    float: left;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+#nav .menu {
+    width: 100px;
+    height: 37px;
+    margin: 45px 30px 25px 30px;
+}
+
+#nav a {
+    display: block;
+    width: 100px;
+    height: 37px;
+    background-position: 0 0;
+    -webkit-transition: background-position .5s;
+    /* Safari */
+    transition: background-position .5s;
+}
+
+#nav .m1 a {
+    background: url(../images/m1.png);
+}
+
+#nav .m2 a {
+    background: url(../images/m2.png);
+}
+
+#nav .m3 a {
+    background: url(../images/m3.png);
+}
+
+#nav a:hover, #nav a.active {
+    background-position: 0 -38px;
+}
+
+.headerInner .sales{
+    float: right;
+    margin: 25px 0;
+}
+.headerInner .sales p{
+    display: block;
+    text-align: right;
+    margin: 10px 0
+}
+.headerInner .sales p.tell{
+    color: #fff;
+    font-size: 1.5em;
+}
+.headerInner .sales p.time{
+    color: #ccc;
+}
+
+
+/*visual banner*/
+
+.clear {
+    clear: both
+}
+
+.visual {
+    width: 1280px;
+    position: relative;
+    margin: 120px auto 0 auto;
+}
+
+.visual .gallery {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 415px;
+    left: 0;
+    top: 0;
+}
+
+.visual .gallery ul {
+    overflow: hidden
+}
+
+.visual .gallery ul>li>img {
+    width: 100%;
+}
+
+.visual .gallery .link1,
+.gallery .link2,
+.gallery .link3,
+.gallery .link4,
+{
+    display: none
+}
+
+.visual .dock {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -72px
+}
+
+.visual .dock span.mbutton {
+    margin-right: 15px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+}
+
+.visual .dock span {
+    background: url(../images/btn.png)
+}
+
+.visual .dock span.ps {
+    margin-left: 130px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    display: block;
+    background: url(../images/stop.png)
+}
+
+/*肄섑뀗痢좎쁺�뿭*/
+
+.contents {
+    width: 1280px;
+    margin: 0 auto;
+}
+.sub_contents {
+    width: 1280px;
+    margin: 120px auto 0 auto;
+    overflow: hidden;
+}
+
+/*type*/
+
+.type {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.type .type_title {
+    width: 100%;
+    padding: 25px 10px 5px 10px;
+    overflow: hidden;    
+    border-bottom: solid 2px #333;
+
+}
+.type .type_title img{
+    float: left;
+    height: 29px;
+    margin: 3px 0;
+}
+.type .type_title h3 {
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
+.type .type_title h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.type .type_title h3 a:visited,
+.type .type_title h3 a:hover {
+    color: #000;
+}
+
+
+/*�씠誘몄� �뒳�씪�씠�뱶 媛ㅻ윭由� 諛뺤뒪*/
+
+.slide_gallery_box {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: solid 2px #333;
+}
+
+.slide_gallery{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 2560px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slide_gallery ul li {
+    display: block;
+    width: 320px;
+    padding: 10px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.slide_gallery ul li img.product{
+    width: 300px;
+}
+.slide_gallery ul li .brand{
+    width: 300px;
+    overflow: hidden;
+}
+.slide_gallery ul li .brand > p > img{
+    display: inline-block;
+    height: 20px;
+    vertical-align:middle;
+}
+.slide_gallery ul li .brand > p{
+    display: block;
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.slide_gallery ul li .brand > p > span.brand_name{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.slide_gallery ul li .car_price{
+    width: 320px;   
+    padding: 20px;
+    font-weight: bold;
+}
+.slide_gallery ul li .car_price > p{
+    line-height: 20px;
+}
+.slide_gallery ul li .car_price .kinds{
+    width: 80px;
+    float: left;
+}
+.slide_gallery ul li .car_price .rate{
+    width: 80px;
+    float: left;
+}
+.slide_gallery ul li .car_price .price{
+    float: right;
+    text-align: right;
+}
+.slide_gallery ul li .mark{
+    width: 80px;
+    height: 25px;
+    background-color: #333;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.slide_gallery ul li .mark > p{
+    color: #fff;
+    line-height: 23px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.sub_menu_box {
+    width: 50px;
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.slide_gallery_box .sub_menu_box img {
+    cursor: pointer;
+}
+
+.news_contents{
+    width: 100%;
+}
+.news_contents ul{
+    margin: 10px 0;
+    overflow: hidden;
+}
+.news_contents ul > li {
+    width: 320px;
+    padding: 0 10px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.news_contents ul > li > .mark{
+    position: absolute;
+    top: 0;left: 10px;
+    width: 100px;
+    height: 30px;
+    opacity: 0.8;
+}
+.news_contents ul > li > .mark.red{
+    background-color: #900
+}
+.news_contents ul > li > .mark.green{
+    background-color: #030
+}
+.news_contents ul > li > .mark.blue{
+    background-color: #006
+}
+.news_contents ul > li > .mark.purple{
+    background-color: #606
+}
+.news_contents ul > li > .mark p{
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.news_contents ul > li > img{
+    display: block;
+    width: 100%;
+}
+.news_contents ul > li > .text{
+    display: block;
+    width: 100%;
+    border: solid 1px #000;
+    border-top: none;
+    padding: 10px;
+}
+.news_contents ul > li > .text > p{
+    line-height: 30px;
+}
+.news_contents ul > li > .text > p.date{
+    font-size: 15px;
+    text-align: right;
+}
+/*�긽�떞�떊泥� 諛뺤뒪*/
+.consultation{
+    width: 100%;
+    overflow: hidden;
+}
+.consultation h3{
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.consultation .consultation_info{
+    width: 50%;
+    height: 260px;
+    float: left;
+    background-color: #333;
+    padding: 20px;
+    overflow: hidden;
+}
+.consultation .consultation_info ol.show_info{
+    width: 100%;
+    float: left;
+}
+.consultation .consultation_info ol.show_info > li{
+    float: left;
+    color: #fff;
+    min-width: 100px;
+    margin: 10px 0;
+}
+.consultation .consultation_info ol.show_info > li:last-child{
+    float: right;
+}
+.consultation .consultation_form{
+    width: 50%;
+    height: 260px;
+    float: right;
+    background-color: #666;
+    padding: 20px;
+    overflow: hidden;
+}
+.consultation .consultation_form .form{
+    width: 450px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.consultation .consultation_form .form > ol > li{
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.consultation .consultation_form .form > ol > li > span{
+    display: inline-block;
+    text-align: left;
+    width:  70px;
+}
+.consultation .consultation_form .form > ol > li > select{
+    width: 50px;
+    height: 26px;
+}
+.consultation .consultation_form .form > ol > li > input{
+    width: 120px;
+    height: 26px;
+    border: none;
+    padding: 0 5px;
+}
+.consultation .consultation_form .form input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.consultation .consultation_form .form a.check_contents{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background: #999;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.consultation .consultation_form a.consult_btn{
+    display: block;
+    width: 100px;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background: url(../images/form_btn.jpg);
+    text-indent: -9999px;
+    float: right;
+}
+
+/*諛곕꼫�쁺�뿭*/
+.banner{
+    width: 100%;
+}
+.banner img{
+    display: block;
+    width: 100%;
+}
+
+/*�뫖�꽣*/
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background: #333;
+    height: 200px;
+    overflow: hidden;
+}
+.footerInner{
+    width: 1280px;
+    margin: 0 auto
+}
+.footerInner address{
+    width: 500px;
+    font-style: normal;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 50px 0;
+    float: left;
+}
+.footerInner .etc{
+    position: relative;
+    margin: 35px 0;
+    width: 230px;
+    float: right;
+    
+}
+.footerInner .etc .link{
+    overflow: hidden;
+    width: 100%;
+}
+.footerInner .etc .link > a{
+    color: #fff;
+    text-decoration: none;
+    background: #888;
+    display: block;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    float: left;
+}
+.footerInner .etc .link > a.naverblog{
+    width: 25px; 
+    height: 25px;
+    text-indent: -9999px;
+    background-image: url(../images/naverblog.png)
+}
+.footerInner .etc .link > a.naverpost{
+    width: 25px; 
+    height: 25px;
+    text-indent: -9999px;
+    background-image: url(../images/naverpost.png)
+}
+.footerInner .etc .logo{
+    margin-top: 10px;
+        float: right;
+
+}
+
+.footerInner .etc a.hinewcar_info{
+    color: #fff;
+    text-decoration: none;
+    background: #888;
+    display: block;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    float: right;
+}
+
+/*sub_tab*/
+
+.sub_tab ul{
+    width: 1000px;
+    float: left;
+}
+.sub_tab ul li{
+    float: left;
+    margin: 20px;
+}
+.sub_tab ul li:first-child{
+    margin-left: 10px;
+}
+
+.sub_tab ul li a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub_tab ul li a:visited,.sub_tab ul li a:hover{
+    color: #333
+}
+
+.sub_tab ul li a.active{
+    color: #a91d22;
+}
+
+/*sub_select*/
+.sub_select{
+    width:  280px;
+    overflow: hidden;
+    float: right;
+}
+.sub_select select{
+    float: right;
+    margin: 20px 10px 0 0;
+    width: 100px;
+    height: 25px;
+}
+
+/*sub_gallery*/
+.sub_gallery{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sub_gallery ul li {
+    display: block;
+    width: 320px;
+    padding: 50px 10px;
+    float: left;
+    position: relative;
+}
+.sub_gallery ul li a,
+.sub_gallery ul li a:visited,
+.sub_gallery ul li a:hover{
+    display: block;
+    color: #333;
+}
+.sub_gallery ul li img.product{
+    width: 300px;
+}
+.sub_gallery ul li .brand{
+    width: 300px;
+    overflow: hidden;
+}
+.sub_gallery ul li .brand > p > img{
+    display: inline-block;
+    height: 20px;
+    vertical-align:middle;
+}
+.sub_gallery ul li .brand > p{
+    display: block;
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.sub_gallery ul li .brand > p > span.brand_name{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.sub_gallery ul li .car_price{
+    width: 320px;   
+    padding: 20px;
+    font-weight: bold;
+}
+.sub_gallery ul li .car_price > p{
+    line-height: 20px;
+}
+.sub_gallery ul li .car_price .kinds{
+    width: 80px;
+    float: left;
+}
+.sub_gallery ul li .car_price .rate{
+    width: 80px;
+    float: left;
+}
+.sub_gallery ul li .car_price .price{
+    float: right;
+    text-align: right;
+}
+.sub_gallery ul li .mark{
+    width: 80px;
+    height: 25px;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.sub_gallery ul li .mark > p{
+    color: #fff;
+    line-height: 23px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.sub_gallery ul li .sales_mark{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+.sub_gallery ul li .sales_mark > p{
+    color: #fff;
+    line-height: 23px;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: center;
+}
+.sub_gallery ul li .sales_end{
+    background-color: #600;
+}
+.sub_gallery ul li .imminent{
+    background-color: #006;
+}
+
+/*car_detail.html > car_detail*/
+.car_detail{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.type_title .sales_mark{
+    width: 140px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+}
+.type_title .imminent{
+    background: #006
+}
+.car_detail .car_info{
+    width: 900px;
+    margin: 10px auto;
+    position: relative; 
+    overflow: hidden;
+}
+.car_detail .car_info .mark{
+    width: 100px;
+    height: 35px;
+    background: #000;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.3em;
+    position: absolute;
+    top: 10px;    
+    left: 0;
+}
+.car_detail .car_info img{
+    width: 450px;
+    float: left;
+}
+.car_detail .car_info .car_price{
+    float: left;
+    width: 450px; 
+    margin: 50px 0 0 0;
+    padding: 0 30px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.car_detail .car_info .car_price > p{
+    display: block;
+    line-height: 50px;
+    font-size: 1.3em;
+}
+.car_detail .car_info .car_price > p::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.car_detail .car_info .car_price .kinds{
+    width: 80px;
+    float: left;
+}
+.car_detail .car_info .car_price .rate{
+    width: 80px;
+    float: left;
+}
+.car_detail .car_info .car_price .price{
+    float: right;
+    text-align: right;
+}
+.car_detail .car_info .car_price .detail_info_btn{
+    display: block;
+    width:390px;
+    height: 50px;
+    line-height: 50px;
+    background: #666;
+    border: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+}
+
+/*car_detail.html > edit area*/
+.edit_area{
+    width: 100%;
+    min-height: 100px;
+    border-top: solid;
+    border-bottom: solid;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+/*car_detail.html > consultation form*/
+.consultation_form{
+    width: 100%;
+    
+}
+.formInner{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.formInner .title{
+    display: block;
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.formInner ul li {
+    width: 100%;
+    line-height: 50px;
+}
+.formInner ul li span.grade{
+    display: inline-block;
+    width: 15%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.formInner ul li select.grade{
+    width: 84%;
+    height: 30px;
+    margin: 15px 0;
+    font-size: 1.0em;
+}
+.formInner ul li input{
+    width: 83.5%;
+    height: 30px;
+    margin: 15px 0;
+    font-size: 1.0em;
+}
+.formInner ul li select.phone{
+    width: 20%;
+    height: 38px;
+    margin-right: 2%;
+}
+.formInner ul li input.phone{
+    width: 26%;
+    height: 30px;
+    margin: 15px 2.3%;
+}
+.formInner ul li input.phone:last-child{
+    margin-right: 0;
+}
+.formInner .checkbox{
+    margin: 20px 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.formInner .checkbox input{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.formInner .checkbox span{
+    line-height: 30px;
+    font-size: 15px;
+}
+.formInner .checkbox a.button{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: 15px;
+}
+.formInner .checkbox a.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.formInner .checkbox a.button:active {
+	position:relative;
+	top:1px;
+}
+.formInner a.apply{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.3em;
+    margin: 0 auto;
+    text-align: center;
+	-moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+	-webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2e466e), color-stop(1, #415989));
+	background:-moz-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-webkit-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-o-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-ms-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
+	background-color:#2e466e;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:5px;
+	border:1px solid #1f2f47;
+	cursor:pointer;
+	color:#ffffff;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+
+}
+.formInner a.apply:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #415989), color-stop(1, #2e466e));
+	background:-moz-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-webkit-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-o-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-ms-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
+	background-color:#415989;
+}
+.formInner a.apply:active {
+	position:relative;
+	top:1px;
